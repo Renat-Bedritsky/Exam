@@ -1,0 +1,360 @@
+@media (max-width: 1024px) {
+
+	.header {
+		min-height: 500px;
+	}
+    
+    .header_bot_text {
+        margin-top: 45px;
+    }
+    .header_bot_text h2 {
+        font-size: 45px;
+    }
+
+    .header_bot_text p {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+	.slider {
+		margin-top: 340px;
+		margin-left: 50%;
+		z-index: 2;
+	}
+
+    .header_bot_slide {
+		margin-top: 37px;
+        position: absolute;
+		left: 27%;
+    }
+
+    .scope_wrapper div {
+        text-align: center;
+    }
+    
+    .scope_left {
+        text-align: center;
+    }
+    
+    .scope_center a {
+        margin: auto;
+    }
+    
+    .scope_right a {
+        margin: auto;
+    }
+
+	.advantages_wrapper {
+		display: block;
+		align-items: center;
+	}
+
+	.advantages_text {
+		margin: auto;
+	}
+
+	.advantages_percent {
+		margin: auto;
+		text-align: center;
+	}
+
+	.advantages_percent_bot {
+		margin: auto;
+		margin-top: 50px;
+	}
+
+}@media (max-width: 768px) {
+	
+ 	.header_top_toggle {
+		display: inline-block;
+	    position: fixed;
+	}
+
+   .header_top_toggle label {
+	   display: block;
+	   width: 17px;
+	   height: 12px;
+	   position: absolute;
+	   top: 0;
+	   left: 0;
+	   cursor: pointer;
+   }
+
+   .close_str {
+	   display: block;
+   }
+
+	.header_top_nav ul {
+		display:  none;
+		margin-top: 50px;
+		position: absolute;
+		margin-left: -402px;
+		padding: 10px 0 10px 150px;
+		background-color: #333;
+		width: 618px;
+		z-index: 3;
+	}
+
+	.header_top_nav ul a {
+		color: white;
+		text-align: center;
+	}
+		
+	#header_top_toggle:checked ~ ul {
+		display: flex;
+	}
+
+	.header_bot_text {
+		background-color: rgba(238, 238, 238, .8);
+		margin: auto;
+		margin-top: 45px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.header_bot_text a {
+		margin-left: 60px;
+	}
+
+	.slider {
+		display: none;
+	}
+
+    .header_bot_slide {
+		left: -20px;
+	}
+	
+	.scope_illustration {
+		margin: auto;
+	}
+
+	.advantages_text {
+		width: 600px;
+	}
+
+	.advantages_percent {
+		width: 600px;
+	}
+
+	.maps_wrapper {
+		margin-left: -20px;
+	}
+
+	.message_right {
+		margin-left: 20%;
+	}
+	
+}
+
+@media (max-width: 425px) {
+
+	.container {
+		width: 90%;
+	}
+
+	.header {
+		min-height: 400px;
+	}
+
+	.header_top_nav ul {
+		margin-left: -230px;
+		padding: 10px;
+		width: 405px;
+	}
+
+	.header_top_nav ul a {
+		font-size: 14px;
+	}
+
+	.header_bot_text {
+		padding-left: 0;
+		padding-right: 0;
+		height: 250px;
+	}
+    .header_bot_text h2 {
+        font-size: 36px;
+    }
+
+	.header_bot_slide {
+		display: none;
+	}
+
+	.advantages_text {
+		width: 350px;
+	}
+
+	.advantages_text h3 {
+		font-size: 36px;
+	}
+
+	.advantages_percent {
+		width: 350px;
+	}
+
+	.advantages_text_str {
+		background-image: url(../img/group.png);
+		background-repeat: no-repeat;
+		background-position: center left;
+		padding-left: 35px;
+	}
+
+	.advantages_percent_bot h5 {
+		font-size: 38px;
+	}
+
+	.logo {
+		padding: 20px;
+	}
+
+	.message_wrapper {
+		display: block;
+	}
+	
+	.maps_wrapper {
+		background-color: rgba(255, 255, 255, .8);
+		padding: 10px;
+		top: 170px;
+		margin-left: -20px;
+		padding-bottom: 30px;
+	}
+	
+	.maps_wrapper_text {
+		margin-bottom: 20px;
+		width: 80px;
+	}
+	
+	.maps_wrapper h2 {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.maps_wrapper p {
+		font-size: 14px;
+	}
+
+	.maps_wrapper_number a {
+		font-size: 14px;
+	}
+	
+	.maps_wrapper_number {
+		margin-bottom: 30px;
+	}
+	
+	.maps_wrapper_button {
+		padding: 15px 25px;
+		font-size: 14px;
+	}
+
+	.message_left {
+		margin-left: 50px;
+	}
+
+	.message_right {
+		margin-left: 0;
+		margin-top: 80px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+}
+
+@media (max-width: 375px) {
+
+	.header_top_nav ul {
+		margin-left: -205px;
+		padding: 10px 25px;
+		width: 325px;
+		align-items: center;
+	}
+
+	.header_top_nav ul li:not(:last-child) {
+		margin-right: 15px;
+	}
+
+	.header_bot_text a {
+		margin-left: 50px;
+	}
+
+	.advantages_text {
+		width: 320px;
+	}
+
+	.advantages_percent {
+		width: 320px;
+	}
+
+	.advantages_percent img {
+		width: 100%;
+	}
+
+	.advantages_percent_bot {
+		width: calc(375px - 20%);
+		display: block;
+	}
+
+	.advantages_percent_bot div:not(:last-child) {
+		margin-right: 10px;
+		margin-top: 20px;
+	}
+
+	.advantages_percent_bot div:last-child {
+		margin-top: 10px;
+	}
+
+	.advantages_percent_bot p {
+		margin-top: 10px;
+	}
+
+	.message_left {
+		margin-left: 35px;
+	}
+
+}
+
+@media (max-width: 320px) {
+	
+	.advantages {
+		overflow-x: hidden;
+	}
+
+	.container {
+		width: 95%;
+	}
+
+	.header_top_nav ul {
+		margin-left: -180px;
+		padding: 10px;
+		width: 300px;
+		align-items: center;
+	}
+
+	.header_top_nav ul li:not(:last-child) {
+		margin-right: 8px;
+	}
+
+	.header_bot_text a {
+		margin-left: 30px;
+	}
+
+	.scope_illustration img {
+		width: 90%;
+	}
+
+	.advantages_text {
+		width: 290px;
+	}
+
+	.advantages_percent {
+		width: 290px;
+	}
+	
+	.maps_wrapper {
+		background-color: rgba(255, 255, 255, .7);
+		margin-left: -5px;
+	}
+
+	.message_left {
+		margin-left: 15px;
+	}
+
+}
